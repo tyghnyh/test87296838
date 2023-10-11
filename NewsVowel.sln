@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsVowel.Console", "src\NewsVowel.Console\NewsVowel.Console.csproj", "{DC1A23FA-9EE2-448A-B0F7-2E3D34A13FB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsVowel.Infrastructure", "src\NewsVowel.Infrastructure\NewsVowel.Infrastructure.csproj", "{BE70A123-4A59-4F38-AEE4-BF14E8FB5112}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsVowel.Application", "src\NewsVowel.Application\NewsVowel.Application.csproj", "{41904A41-BFDB-4412-A572-963ADA07A176}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3A35B3CA-3D38-465D-A878-439631062D14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D05100DC-7BA0-40DC-BFE3-4DC0576EE078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsVowel.Tests.Unit", "test\NewsVowel.Tests.Unit\NewsVowel.Tests.Unit.csproj", "{485CE856-06BD-4D77-B0D7-B0214DAC1746}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC1A23FA-9EE2-448A-B0F7-2E3D34A13FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC1A23FA-9EE2-448A-B0F7-2E3D34A13FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC1A23FA-9EE2-448A-B0F7-2E3D34A13FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC1A23FA-9EE2-448A-B0F7-2E3D34A13FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE70A123-4A59-4F38-AEE4-BF14E8FB5112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE70A123-4A59-4F38-AEE4-BF14E8FB5112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE70A123-4A59-4F38-AEE4-BF14E8FB5112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE70A123-4A59-4F38-AEE4-BF14E8FB5112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41904A41-BFDB-4412-A572-963ADA07A176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41904A41-BFDB-4412-A572-963ADA07A176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41904A41-BFDB-4412-A572-963ADA07A176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41904A41-BFDB-4412-A572-963ADA07A176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{485CE856-06BD-4D77-B0D7-B0214DAC1746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485CE856-06BD-4D77-B0D7-B0214DAC1746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485CE856-06BD-4D77-B0D7-B0214DAC1746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485CE856-06BD-4D77-B0D7-B0214DAC1746}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC1A23FA-9EE2-448A-B0F7-2E3D34A13FB1} = {3A35B3CA-3D38-465D-A878-439631062D14}
+		{BE70A123-4A59-4F38-AEE4-BF14E8FB5112} = {3A35B3CA-3D38-465D-A878-439631062D14}
+		{41904A41-BFDB-4412-A572-963ADA07A176} = {3A35B3CA-3D38-465D-A878-439631062D14}
+		{485CE856-06BD-4D77-B0D7-B0214DAC1746} = {D05100DC-7BA0-40DC-BFE3-4DC0576EE078}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E89185ED-0E95-46A2-96F8-A09A2D8861A3}
+	EndGlobalSection
+EndGlobal

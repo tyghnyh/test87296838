@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NewsVowel.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "Маск Business"
+    }
+  }
+}
